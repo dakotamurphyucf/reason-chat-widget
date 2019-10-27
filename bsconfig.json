@@ -1,0 +1,29 @@
+
+{
+  "name": "react-hooks-template",
+  "reason": {
+    "react-jsx": 3
+  },
+  "gentypeconfig": {
+    "language": "untyped",
+    "shims": {},
+    "debug": {
+      "all": false
+    },
+    "fileHeader": "Dakota Was Here!"
+  },
+  "sources": {
+    "dir" : "src",
+    "subdirs" : true
+  },
+  "package-specs": [{
+    "module": "es6",
+    "in-source": true
+  }],
+  "suffix": ".bs.js",
+  "namespace": true,
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "refmt": 3
+}
